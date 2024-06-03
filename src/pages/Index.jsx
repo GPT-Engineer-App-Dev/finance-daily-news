@@ -23,7 +23,7 @@ const Index = () => {
   }, []);
 
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="#f3f2ef">
       <Flex as="nav" bg="gray.800" color="white" p={4} justifyContent="space-between">
         <Heading size="md">Financial Times</Heading>
         <HStack spacing={4}>
